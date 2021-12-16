@@ -20,4 +20,17 @@ Genvej CTRL+C stopper/genstarter terminalen.
 4. Opsæt lokal Node server. <br>
 Kan ses i index.js filen.
 
+5. Installér "Nodemon". <br>
+Nodemon er kort for "Node Monitor". <br>
+Installeres gennem "% npm i -g nodemon". <br>
+Man kan nu fremover skrive "% nodemon index.js" når man vil starte monitorering. Den genstarter node når der sker en ændring i koden.
+
+6. Output. <br>
+```response.writeHead(200, {'Content-Type': 'text/html'});
+    response.write('Hello World! and another test!');
+    response.end();```
+Skrives inde i arrowfunction under :
+"http.createServer((request, response) => {
+    [hér]
+})"
 
