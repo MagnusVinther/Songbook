@@ -26,11 +26,15 @@ Installeres gennem "% npm i -g nodemon". <br>
 Man kan nu fremover skrive "% nodemon index.js" når man vil starte monitorering. Den genstarter node når der sker en ændring i koden.
 
 6. Output. <br>
-```response.writeHead(200, {'Content-Type': 'text/html'});
-    response.write('Hello World! and another test!');
-    response.end();```
+```
+response.writeHead(200, {'Content-Type': 'text/html'});
+response.write('Hello World! and another test!');
+response.end();
+```
 Skrives inde i arrowfunction under :
+```
 "http.createServer((request, response) => {
     [hér]
 })"
+```
 
