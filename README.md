@@ -6,7 +6,7 @@ Her er er nogle commands som er nyttige - og notater til projektet.
 
 Først og fremmest bør man altid huske at tilføje node_modules til .gitignore (det fandt jeg ud af lidt sent i det her projekt.)
 
---- Node.js start-up ---
+<h3> --- Node.js start-up --- </h3>
 1. <ins>"% npm init"</ins> starter node projekt<br>
 Herunder skal man give forklaringer på spørgsmål.
 
