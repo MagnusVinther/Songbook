@@ -38,3 +38,10 @@ Skrives inde i arrowfunction under :
 })"
 ```
 
+<h3> --- Installer nye dependencies / Packages--- </h3>
+
+1. <ins>% npm install [package navn]</ins> Installerer ny package.
+
+2. Når ny package er installeret bør <ins>Node_modules</ins> mappen slettes, hvorefter man skriver <ins>% npm i</ins> for at genoprette den med nye dependencies.
+
+3. Man kan nu se nye packages under dependencies i package.json filen.
