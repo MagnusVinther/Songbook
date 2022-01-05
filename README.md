@@ -23,6 +23,7 @@ Kan ses i index.js filen.
 5. Installér "Nodemon". <br>
 Nodemon er kort for "Node Monitor". <br>
 Installeres gennem <ins>"% npm i -g nodemon"</ins>. <br>
+"-g" betyder at en pakke bliver installeret til globalt brug. <br>
 Man kan nu fremover skrive "% nodemon index.js" når man vil starte monitorering. Den genstarter node når der sker en ændring i koden.
 
 6. Output. <br>
